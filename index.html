@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Noah J. Alexander</title>
+<meta name="description" content="Noah J. Alexander — co-founder of Latent Variables." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet" />
+<style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+
+  /* Computer Modern Roman — put cmunrm.ttf in the same folder as this file. */
+  @font-face {
+    font-family: "Cmunrm";
+    src: url("cmunrm.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  body {
+    margin: 0;
+    background: #ffffff;
+    color: #212121;
+    font-family: "Cmunrm", "Times New Roman", sans-serif;
+  }
+
+  .page { padding-top: 64px; padding-bottom: 64px; }
+
+  .links {
+    width: 800px;
+    max-width: calc(100% - 32px);
+    margin: 0 auto 48px;
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    flex-wrap: wrap;
+  }
+  .links .col { display: flex; flex-direction: column; align-items: flex-start; gap: 10px; }
+  .links .label {
+    font-family: "Cmunrm", "Times New Roman", sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #212121;
+  }
+  .links .pill {
+    font-family: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    font-size: 13px;
+    line-height: 1.4;
+    font-weight: 400;
+    color: rgba(32, 37, 42, 0.5);
+    background: #F8F8F8;
+    border-radius: 8px;
+    padding: 6px 12px;
+    text-decoration: none;
+    overflow-wrap: anywhere;
+    transition: color .15s ease;
+  }
+  a.pill:hover { color: rgba(32, 37, 42, 0.85); }
+  a.pill:focus-visible { outline: 2px solid #212121; outline-offset: 2px; }
+
+  .card {
+    width: 800px;
+    max-width: calc(100% - 32px);
+    margin: 0 auto 64px;
+    padding: 40px 60px;
+    border: 1px solid #F3F2F2;
+    background: rgba(233, 233, 233, 0.29);   /* flat single gray */
+  }
+  .card h1 {
+    margin: 0 0 32px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    color: #333333;
+    text-align: center;
+  }
+  .card p {
+    margin: 0 0 32px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #212121;
+    text-align: justify;
+    hyphens: manual;
+    letter-spacing: normal;
+    word-spacing: normal;
+  }
+  .card p:last-child { margin-bottom: 0; }
+
+  @media (max-width: 640px) {
+    .links { gap: 20px; }
+    .card { padding: 32px 24px; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="links">
+    <div class="col">
+      <div class="label">Contact</div>
+      <a class="pill" href="mailto:noah@latentvariables.com">noah@latentvariables.com</a>
+    </div>
+    <div class="col">
+      <div class="label">X</div>
+      <a class="pill" href="https://x.com/noaha2732?s=11" target="_blank" rel="noopener">x.com/noaha2732</a>
+    </div>
+    <div class="col">
+      <div class="label">LinkedIn</div>
+      <a class="pill" href="https://www.linkedin.com/in/noah-alexander-261434218/" target="_blank" rel="noopener">linkedin.com/in/noah-alexander</a>
+    </div>
+  </div>
+
+  <section class="card">
+    <h1>Noah J. Alexander</h1>
+    <p>Noah Alexander is a co-founder of Latent Variables, an applied research lab dedicated to teaching agentic systems to elicit, understand, and reason about undocumented human dynamics.</p>
+    <p>Previously, Noah served as a co-investigator at Altrix Technologies, a healthcare AI lab, conducting research in collaboration with Michigan Medicine and Johns Hopkins on attaching persistent memory streams to AI agents to create behavioral digital twins for implementation science simulations. Prior to Altrix Technologies, he worked in Healthcare Investment Banking at Goldman Sachs.</p>
+    <p>Noah graduated from the University of Michigan. His work sits at the intersection of artificial intelligence, behavioral science, and organizational systems, with a focus on building AI that can better understand how people and organizations operate.</p>
+    <p>Currently located in San Francisco, CA.</p>
+  </section>
+</div>
+</body>
+</html>
